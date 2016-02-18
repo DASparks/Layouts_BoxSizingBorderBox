@@ -1,0 +1,19 @@
+ div{
+     border: 5px solid red;
+ }
+
+ .simple{
+     width: 500px;
+     margin: 25px auto;
+ }
+
+ .fancy {
+     width: 500px;
+     margin: 25px auto;
+     padding: 50px;
+     border-width: 20px;
+ }
+
+ .after {
+     box-sizing: border-box;
+ }

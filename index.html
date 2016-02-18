@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Layouts_Box-SizingBorder-Box</title>
+</head>
+    <body>
+     <div class="simple">
+         <p><strong>BEFORE</strong></p>
+         <p><em>No box-sizing: border-box;</em></p>
+         <p>I'm Smaller</p>
+     </div>
+
+     <div class="fancy">
+         <p><strong>BEFORE</strong></p>
+         <p><em>No box-sizing: border-box;</em></p>
+         <p>I'm Bigger</p>
+     </div>
+
+     <div class="simple after">
+         <p><strong>AFTER</strong></p>
+         <p><em>With box-sizing: border-box;</em></p>
+         <p>I'm The Same</p>
+     </div>
+
+     <div class="fancy after">
+         <p><strong>AFTER</strong></p>
+         <p><em>With box-sizing: border-box;</em></p>
+         <p><strong>Padding & Border</strong> No Longer Increase My Width</p>
+     </div>
+    </body>
+</html>
